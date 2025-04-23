@@ -1,0 +1,101 @@
+[
+
+    {
+        "id":1,
+        "name":"News Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/porcelain-cup-with-coffee-stands-before-newspapers-book_8353-1501.jpg?t=st=1745400192~exp=1745403792~hmac=669ee277f9ca6b17e34c7d36dbc483e984ec3b6f391bd5fadd524f938dbb7b97&w=996"
+    },
+
+    {
+        "id":2,
+        "name":"News Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/premium-photo/person-reading-magazine-photo_195114-59480.jpg?w=740"
+    },
+
+    {
+        "id":3,
+        "name":"News Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/free-photo/porcelain-cup-with-coffee-stands-before-newspapers-book_8353-1501.jpg?t=st=1745400192~exp=1745403792~hmac=669ee277f9ca6b17e34c7d36dbc483e984ec3b6f391bd5fadd524f938dbb7b97&w=996"
+    },
+
+    {
+        "id":4,
+        "name":"News Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":0,
+        "category":"Free",
+        "image":"https://img.freepik.com/premium-photo/person-reading-magazine-photo_195114-59480.jpg?w=740"
+    },
+
+    {
+        "id":5,
+        "name":"Art Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":40,
+        "category":"Poetry",
+        "image":"https://img.freepik.com/free-photo/close-up-butterfly-near-book_23-2151001349.jpg?t=st=1745400039~exp=1745403639~hmac=412ebb5048c66a80c11a246b182981747909dae402a2115bd7d0b34baa8bd42a&w=740"
+    },
+
+    {
+        "id":6,
+        "name":"Art Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":40,
+        "category":"Poetry",
+        "image":"https://img.freepik.com/free-photo/close-up-butterfly-near-book_23-2151001349.jpg?t=st=1745400039~exp=1745403639~hmac=412ebb5048c66a80c11a246b182981747909dae402a2115bd7d0b34baa8bd42a&w=740"
+    },
+
+    {
+        "id":7,
+        "name":"Art Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":40,
+        "category":"Poetry",
+        "image":"https://img.freepik.com/free-photo/close-up-butterfly-near-book_23-2151001349.jpg?t=st=1745400039~exp=1745403639~hmac=412ebb5048c66a80c11a246b182981747909dae402a2115bd7d0b34baa8bd42a&w=740"
+    },
+
+    {
+        "id":8,
+        "name":"Art Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":40,
+        "category":"Poetry",
+        "image":"https://img.freepik.com/free-photo/close-up-butterfly-near-book_23-2151001349.jpg?t=st=1745400039~exp=1745403639~hmac=412ebb5048c66a80c11a246b182981747909dae402a2115bd7d0b34baa8bd42a&w=740"
+    },
+
+    {
+        "id":9,
+        "name":"Lifestyle Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":50,
+        "category":"Fashion",
+        "image":"https://img.freepik.com/premium-photo/string-bag-with-fresh-fruits-fashion-magazine-beach-accessories-beige-background-flat-lay_495423-79723.jpg?w=740"
+    },
+
+    {
+        "id":10,
+        "name":"Lifestyle Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":50,
+        "category":"Fashion",
+        "image":"https://img.freepik.com/premium-photo/string-bag-with-fresh-fruits-fashion-magazine-beach-accessories-beige-background-flat-lay_495423-79723.jpg?w=740"
+    },
+
+    {
+        "id":11,
+        "name":"Lifestyle Magazine",
+        "title":"Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        "price":20,
+        "category":"Fashion",
+        "image":"https://img.freepik.com/premium-photo/string-bag-with-fresh-fruits-fashion-magazine-beach-accessories-beige-background-flat-lay_495423-79723.jpg?w=740"
+    }
+]
