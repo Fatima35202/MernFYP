@@ -22,7 +22,7 @@ function Course() {
   return (
     <>
       <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div className="mt-28 flex flex-col items-center justify-center text-center">
+        <div className="mt-28 items-center justify-center text-center">
           <h1 className="text-2xl md:text-4xl">
             We're delighted to have you{" "}
             <span className="text-orange-500">Here! :)</span>
@@ -43,7 +43,7 @@ function Course() {
           </Link>
         </div>
 
-        <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-4">
           {magazine.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
