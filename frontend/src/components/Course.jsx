@@ -7,7 +7,7 @@ function Course() {
   useEffect(() => {
     const getMagazine = async () => {
       try {
-        const res = await axios.get(`${process.env.REACT_APP_API_URL}/magazine`);
+        const res = await axios.get('https://mernfyp-production.up.railway.app/magazine');
         console.log(res.data);
         setMagazine(res.data);
       } catch (error) {
