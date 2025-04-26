@@ -12,8 +12,7 @@ function Freemagazine() {
   useEffect(() => {
     const getMagazine = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/magazine");
-
+        const res = await axios.get(`${process.env.REACT_APP_API_URL}/magazine`);
         const data = res.data.filter((data) => data.category === "Free");
         console.log(data);
         setMagazine(data);
