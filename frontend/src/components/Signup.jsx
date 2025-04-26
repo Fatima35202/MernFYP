@@ -41,9 +41,9 @@ function Signup() {
 
   return (
     <>
-      <div className="flex h-screen items-center justify-center px-4 md:px-0">
-        <div className="w-full md:w-[600px]">
-          <div className="modal-box p-4 md:p-6">
+      <div className="flex h-screen items-center justify-center">
+        <div className="w-full sm:w-[90%] md:w-[600px]">
+          <div className="modal-box">
             <form onSubmit={handleSubmit(onSubmit)} method="dialog">
               <Link
                 to="/"
@@ -52,17 +52,19 @@ function Signup() {
                 ✕
               </Link>
 
-              <h3 className="font-bold text-lg text-center">Signup</h3>
+              <h3 className="font-bold text-lg">Signup</h3>
 
               {/* Name */}
               <div className="mt-4 space-y-2">
                 <span>Name</span>
+                <br />
                 <input
                   type="text"
                   placeholder="Enter your fullname"
-                  className="w-72 md:w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-full sm:w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("fullname", { required: true })}
                 />
+                <br />
                 {errors.fullname && (
                   <span className="text-sm text-red-500">
                     This field is required
@@ -73,12 +75,14 @@ function Signup() {
               {/* Email */}
               <div className="mt-4 space-y-2">
                 <span>Email</span>
+                <br />
                 <input
                   type="email"
                   placeholder="Enter your email"
-                  className="w-72 md:w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-full sm:w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("email", { required: true })}
                 />
+                <br />
                 {errors.email && (
                   <span className="text-sm text-red-500">
                     This field is required
@@ -89,12 +93,14 @@ function Signup() {
               {/* Password */}
               <div className="mt-4 space-y-2">
                 <span>Password</span>
+                <br />
                 <input
                   type="text"
                   placeholder="Enter your password"
-                  className="w-72 md:w-80 px-3 py-1 border rounded-md outline-none"
+                  className="w-full sm:w-80 px-3 py-1 border rounded-md outline-none"
                   {...register("password", { required: true })}
                 />
+                <br />
                 {errors.password && (
                   <span className="text-sm text-red-500">
                     This field is required
@@ -103,15 +109,14 @@ function Signup() {
               </div>
 
               {/* Button */}
-              <div className="flex flex-col items-center mt-6 space-y-4 md:flex-row md:justify-around md:space-y-0">
-                <button className="bg-orange-500 text-white rounded-md px-3 py-1 hover:bg-orange-700 duration-200 w-72 md:w-auto">
+              <div className="flex flex-col sm:flex-row justify-around mt-4">
+                <button className="bg-orange-500 text-white rounded-md px-3 py-1 hover:bg-orange-700 duration-200 mb-2 sm:mb-0">
                   Signup
                 </button>
-                <p className="text-center text-sm md:text-xl">
-                  Have an account?{" "}
+                <p className="text-center sm:text-left text-xl">
+                  Have account?{" "}
                   <button
-                    type="button"
-                    className="underline text-blue-500"
+                    className="underline text-blue-500 cursor-pointer"
                     onClick={() =>
                       document.getElementById("my_modal_3").showModal()
                     }
