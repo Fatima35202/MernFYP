@@ -39,7 +39,7 @@ function Login() {
   return (
     <div>
       <dialog id="my_modal_3" className="modal">
-        <div className="modal-box p-4 md:p-6">
+        <div className="modal-box w-full sm:w-[90%] md:w-[600px]">
           <form onSubmit={handleSubmit(onSubmit)}>
             <Link
               to="/"
@@ -49,17 +49,19 @@ function Login() {
               ✕
             </Link>
 
-            <h3 className="font-bold text-lg text-center">Login</h3>
+            <h3 className="font-bold text-lg">Login</h3>
 
             {/* Email Field */}
             <div className="mt-4 space-y-2">
               <span>Email</span>
+              <br />
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-72 md:w-80 px-3 py-1 border rounded-md outline-none"
+                className="w-full sm:w-80 px-3 py-1 border rounded-md outline-none"
                 {...register("email", { required: true })}
               />
+              <br />
               {errors.email && (
                 <span className="text-sm text-red-500">
                   This field is required
@@ -70,12 +72,14 @@ function Login() {
             {/* Password Field */}
             <div className="mt-4 space-y-2">
               <span>Password</span>
+              <br />
               <input
                 type="password"
                 placeholder="Enter your password"
-                className="w-72 md:w-80 px-3 py-1 border rounded-md outline-none"
+                className="w-full sm:w-80 px-3 py-1 border rounded-md outline-none"
                 {...register("password", { required: true })}
               />
+              <br />
               {errors.password && (
                 <span className="text-sm text-red-500">
                   This field is required
@@ -84,14 +88,14 @@ function Login() {
             </div>
 
             {/* Buttons */}
-            <div className="flex flex-col items-center mt-6 space-y-4 md:flex-row md:justify-around md:space-y-0">
+            <div className="flex flex-col sm:flex-row justify-around mt-6">
               <button
                 type="submit"
-                className="bg-orange-500 text-white rounded-md px-3 py-1 hover:bg-orange-700 duration-200 w-72 md:w-auto"
+                className="bg-orange-500 text-white rounded-md px-3 py-1 hover:bg-orange-700 duration-200 mb-2 sm:mb-0"
               >
                 Login
               </button>
-              <p className="text-center text-sm md:text-base">
+              <p className="text-center sm:text-left">
                 Not registered?{" "}
                 <Link
                   to="/signup"
