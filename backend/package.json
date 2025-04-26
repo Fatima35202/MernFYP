@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/akhil2k-lc/magazineStoreApp.git"
+        "url": "git+https://github.com/Fatima35202/MernFYP.git"
     },
-    "author": "Akhil",
+    "author": "fatima tanveer",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/akhil2k-lc/magazineStoreApp/issues"
+        "url": "https://github.com/Fatima35202/MernFYP/issues"
     },
-    "homepage": "https://github.com/akhil2k-lc/magazineStoreApp#readme",
+    "homepage": "https://github.com/Fatima35202/MernFYP#readme",
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "cors": "^2.8.5",
